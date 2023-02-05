@@ -28,7 +28,7 @@ public class ServiceDemo {
         BufferedWriter bw=new BufferedWriter(new FileWriter("src\\s.txt"));
 
         String line;
-        // //客户端发送完数据后，服务器端也一直在等待数据
+        //客户端发送完数据后，服务器端br.readLine()也一直在等待数据
         //读取数据的方式一直是阻塞式的
         while((line=br.readLine())!=null){
            bw.write(line);
