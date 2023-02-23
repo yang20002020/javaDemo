@@ -1,0 +1,2 @@
+className=it_62.Student
+methodName=study
